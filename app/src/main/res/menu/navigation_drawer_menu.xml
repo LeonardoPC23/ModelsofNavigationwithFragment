@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_navigation_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/string_home" />
+        <item
+            android:id="@+id/item_navigation_course"
+            android:icon="@drawable/ic_code_black_24dp"
+            android:title="@string/string_course" />
+        <item
+            android:id="@+id/item_navigation_instructor"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/string_instructor" />
+        <item
+            android:id="@+id/item_navigation_web"
+            android:icon="@drawable/ic_http_black_24dp"
+            android:title="@string/string_home_page" />
+    <item
+        android:id="@+id/item_logout"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/logout"
+        />
+
+    </group>
+</menu>
